@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>expenditureAI</title>
+        <link rel="icon" href="favicon.ico">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,800&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+    <body>
+        <div class="topbar">
+            <img src="icon.png" class="topbaricon">
+            <p class="brand-text">expenditure<b>AI</b></p>
+        </div>
+
+        <div class="main-dashboard">
+            <div class="card forcastbox">
+                <p style="font-family: Big Shoulders, sans-serif; color: white; font-size: 30px; margin-left: 25px; margin-top: 20px;"><b id="dynamicnmonth">MONTH</b> FORECAST</p>
+                <p id="dynamictotalcost" style="font-family: Montserrat, sans-serif; color: rgb(127, 255, 98); font-size: 90px; margin-left: 25px; font-weight: 100; margin-top: -5px;">$0.00</p>
+                <p style="font-family: Montserrat, sans-serif; color: white; font-size: 15px; margin-left: 28px; font-weight: 400; margin-top: -89px;"><b>Projected Expenses</b></p>
+                
+                <div class="forecast-footer" style="margin-left: 25px; margin-right: 25px; margin-top: 40px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 15px;">
+                    <div class="currency-selector" style="margin-bottom: 12px; display: flex; align-items: center; justify-content: space-between;">
+                        <span style="font-family: Montserrat, sans-serif; color: #aaa; font-size: 12px;">Display Currency:</span>
+                        <select id="currencySelect" onchange="convertCurrency()" style="background: rgba(255,255,255,0.1); color: #033753; border: 1px solid rgba(255,255,255,0.2); padding: 4px 8px; border-radius: 6px; font-family: Montserrat, sans-serif; font-size: 12px; outline: none;">
+    <optgroup label="Americas">
+        <option value="USD" selected>USD ($)</option>
+        <option value="CAD">CAD (C$)</option>
+        <option value="MXN">MXN (Mex$)</option>
+        <option value="BRL">BRL (R$)</option>
+        <option value="ARS">ARS (ARS$)</option>
+        <option value="CLP">CLP (CLP$)</option>
+        <option value="COP">COP (COL$)</option>
+    </optgroup>
+    <optgroup label="Middle East & Africa">
+        <option value="AED">AED (AED)</option>
+        <option value="SAR">SAR (SAR)</option>
+        <option value="QAR">QAR (QAR)</option>
+        <option value="KWD">KWD (KD)</option>
+        <option value="OMR">OMR (OMR)</option>
+        <option value="BHD">BHD (BD)</option>
+        <option value="EGP">EGP (E&pound;)</option>
+        <option value="NGN">NGN (&#8358;)</option>
+        <option value="ZAR">ZAR (R)</option>
+        <option value="KES">KES (KSh)</option>
+    </optgroup>
+    <optgroup label="Europe">
+        <option value="EUR">EUR (&euro;)</option>
+        <option value="GBP">GBP (&pound;)</option>
+        <option value="CHF">CHF (CHF)</option>
+        <option value="SEK">SEK (kr)</option>
+        <option value="NOK">NOK (kr)</option>
+        <option value="PLN">PLN (z&#322;)</option>
+        <option value="TRY">TRY (&#8378;)</option>
+    </optgroup>
+    <optgroup label="Asia-Pacific">
+        <option value="INR">INR (&#8377;)</option>
+        <option value="JPY">JPY (&yen;)</option>
+        <option value="CNY">CNY (&yen;)</option>
+        <option value="AUD">AUD (A$)</option>
+        <option value="NZD">NZD (NZ$)</option>
+        <option value="SGD">SGD (S$)</option>
+        <option value="HKD">HKD (HK$)</option>
+        <option value="KRW">KRW (&#8361;)</option>
+        <option value="MYR">MYR (RM)</option>
+        <option value="THB">THB (&#3647;)</option>
+        <option value="IDR">IDR (Rp)</option>
+        <option value="PHP">PHP (&#8369;)</option>
+        <option value="VND">VND (&#8363;)</option>
+        <option value="PKR">PKR (Rs)</option>
+    </optgroup>
+</select>
+                    </div>
+
+                    <div class="quick-converter" style="background: rgba(255,255,255,0.03); border: 1px dashed rgba(255,255,255,0.15); border-radius: 8px; padding: 10px; margin-bottom: 12px;">
+        <p style="margin: 0 0 6px 0; font-family: Montserrat, sans-serif; color: #888; font-size: 11px; font-weight: 600;">QUICK USD CONVERTER</p>
+        <div style="display: flex; gap: 8px; align-items: center;">
+            <input type="number" id="manualAmountInput" placeholder="Amount..." oninput="calculateManualUSD()" style="width: 50%; background: rgba(0,0,0,0.3); border: 1px solid rgba(255,255,255,0.1); color: #fff; padding: 5px 8px; border-radius: 4px; font-family: Montserrat, sans-serif; font-size: 12px; outline: none;" />
+            <span style="color: #aaa; font-family: Montserrat, sans-serif; font-size: 12px;">=</span>
+            <span id="manualUSDResult" style="font-family: Montserrat, sans-serif; color: #7fff62; font-size: 13px; font-weight: 600;">$0.00 USD</span>
+        </div>
+    </div>
+
+                    <div class="region-legend" style="font-family: Montserrat, sans-serif; color: #888; font-size: 11px; line-height: 1.6;">
+                        <p style="margin: 0; color: #aaa; font-weight: 600; margin-bottom: 4px;">Region Codes:</p>
+                        <span style="color: #fff;">NA</span>: N. America | 
+                        <span style="color: #fff;">ME</span>: Middle East | 
+                        <span style="color: #fff;">EU</span>: Europe<br>
+                        <span style="color: #fff;">AS</span>: Asia/APAC | 
+                        <span style="color: #fff;">LA</span>: LatAm | 
+                        <span style="color: #fff;">AF</span>: Africa
+                    </div>
+                </div>
+            </div>
+
+            <div class="middle-column">
+                <div class="card additembox">
+                    <div class="active-header">
+                        <p style="font-family: Big Shoulders, sans-serif; color: white; font-size: 20px; margin-left: 25px; margin-top: 17px;">ACTIVE EXPENSES</p>
+                        <button class="add-btn" onclick="createExpenseCard()">+</button>
+                    </div>
+
+                    <div id="expenseContainer" class="expense-list-wrapper"></div>
+                </div>
+
+                <div class="card aioutputbox">
+                    <div class="active-header">
+                        <p style="font-family: Big Shoulders, sans-serif; color: white; font-size: 20px; margin-left: 25px; margin-top: 17px;">SMART CUTS</p>
+                        <button class="ai-btn" onclick="analyzeAI()">Analyze AI</button>
+                    </div>
+                    <div id="aiOutput" class="ai-container"></div>
+                </div>
+            </div>
+
+            <div class="card bargraphcomparison">
+                <p style="font-family: Big Shoulders, sans-serif; color: white; font-size: 30px; margin-left: 25px; margin-top: 20px;">OPTIMIZATION IMPACT</p>
+                <div class="chart-wrapper">
+                    <canvas id="impactChart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
