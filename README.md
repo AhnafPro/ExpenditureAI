@@ -6,9 +6,9 @@
   <img style="border-radius: 10px;" width="1919" height="897" alt="App Banner" src="https://github.com/user-attachments/assets/a6733eb9-6ea9-444b-84f8-bdd202abbd66" />
 </p>
 <p align="center">
-  <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#-features">Features</a> • 
-  <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#%EF%B8%8F-how-to-use">How to Use</a> • 
-  <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#-local-setup-offline-usage">Local Setup</a>
+  <a href="#-features">Features</a> •
+  <a href="#%EF%B8%8F-how-to-use">How to Use</a> •
+  <a href="#-local-setup-offline-usage">Local Setup</a>
 </p>
 
 ![Static Badge](https://img.shields.io/badge/website-url?style=for-the-badge&link=https%3A%2F%2Fexpenditureai.rf.gd%2F) ![Static Badge](https://img.shields.io/badge/project-stardance-blue?style=for-the-badge&link=https%3A%2F%2Fstardance.hackclub.com%2Fprojects%2F57085)
