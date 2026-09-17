@@ -1,6 +1,6 @@
 <h1>
   <img src="https://github.com/user-attachments/assets/45660822-cb60-4e91-9c58-088c05990766" alt="expenditureAI Logo" height="32" align="center">
-  expenditureAI
+  expenditureAI (50% done)
 </h1>
 <p align="center">
   <img style="border-radius: 10px;" width="1919" height="897" alt="App Banner" src="https://github.com/user-attachments/assets/a6733eb9-6ea9-444b-84f8-bdd202abbd66" />
