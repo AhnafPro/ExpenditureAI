@@ -28,7 +28,7 @@
 - Currency converter: Helps convert expenses into your local currency.
 - Smart Cuts: Shows an output based on the cheapest alternative through a built-in algorithm.
 - Active expenses: Contains different types of expenses (e.g., food, music) with multiple services from each category.
-- Optimization overview graph: Shows you an overview of how much you are saving in the form of a bar graph after you click "AI Analyze".
+- Optimization impact graph: Shows you an overview of how much you are saving in the form of a bar graph after you click "AI Analyze".
 
 ## ⚙️ How to Use
 1. Choose your display currency under the "MONTH FORECAST" box
