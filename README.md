@@ -14,7 +14,7 @@
 ![Static Badge](https://img.shields.io/badge/website-url?style=for-the-badge&link=https%3A%2F%2Fexpenditureai.rf.gd%2F) ![Static Badge](https://img.shields.io/badge/project-stardance-blue?style=for-the-badge&link=https%3A%2F%2Fstardance.hackclub.com%2Fprojects%2F57085)
 
 ### An algorithm-based financial tracker web app that analyzes student spending patterns to show monthly forecasts, suggest budget cuts, and recommend lower-cost alternatives.
-#### Managing your finances as a student can be a bit tricky when balancing studies, social life, and other everyday things. So to make that work easy, expenditureAI simplifies this by taking your income amount and active expenses, running them through a custom logic flow, and automatically generating visual forecasts, budget cuts, and showing some good alternatives to save your money.
+#### Saving up your money with all the stress in your head can be quite hard. To make that work easy expenditureAI simplifies that task by taking your input budget with expenses and automatically generating budget cut ideas, an overview graph, and suggesting good alternatives to save your money
 <br>
 
 <p align="center">
@@ -25,10 +25,10 @@
 
 ## ✨ Features
 - Monthly forecast display: Shows the spending amount for the current month.
-- Currency converter: Helps international students convert expenses into their local currency.
-- Smart budget-cut suggestions: Evaluates non-essential spending and suggests cheaper alternatives through a built-in algorithm.
-- Multiple expense lists: Categorizes spending (e.g., food, music) for better organization.
-- Optimization overview graph: Visualizes expenditure trends before and after applying AI analysis.
+- Currency converter: Helps convert expenses into your local currency.
+- Smart Cuts: Shows an output based on the cheapest alternative through a built-in algorithm.
+- Active expenses: Contains different types of expenses (e.g., food, music) with multiple services from each category.
+- Optimization overview graph: Shows you an overview of how much you are saving in the form of a bar graph after you click "AI Analyze".
 
 ## ⚙️ How to Use
 1. Choose your display currency under the "MONTH FORECAST" box
@@ -39,5 +39,5 @@
 
 ## 📦 Local Setup (offline usage)
 The project will work offline if downloaded on your device, but certain things might break, like the optimization charts, custom fonts, etc., but the core functions like the currency converter or the AI smart cuts will still work.
-1. **Clone the repo:** Download the zip folder of the project or run `git clone https://github.com/AhnafPro/ExpenditureAI.git`
-2. **Launch it:** Extract the zip and/or open the cloned repo folder, and open `index.html` in your browser.
+1. **Download the project:** Download the zip folder of the project or clone it from the repository.
+2. **Launch it:** Open the downloaded folder (extract it if it was a zip), and open `index.html` inside it in your browser.
