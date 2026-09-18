@@ -14,7 +14,7 @@
 ![Static Badge](https://img.shields.io/badge/website-url?style=for-the-badge&link=https%3A%2F%2Fexpenditureai.rf.gd%2F) ![Static Badge](https://img.shields.io/badge/project-stardance-blue?style=for-the-badge&link=https%3A%2F%2Fstardance.hackclub.com%2Fprojects%2F57085)
 
 ### An algorithm-based financial tracker web app that analyzes student spending patterns to show monthly forecasts, suggest budget cuts, and recommend lower-cost alternatives.
-#### Saving up your money with all the stress in your head can be quite hard. To make that work easy expenditureAI simplifies that task by taking your input budget with expenses and automatically generating budget cut ideas, an overview graph, and suggesting good alternatives to save your money
+#### Saving up your money with all the stress in your head can be quite hard. To make that work easy expenditureAI simplifies that task by taking your input budget with expenses and automatically generating budget cut ideas, an impact graph, and suggesting good alternatives to save your money
 <br>
 
 <p align="center">
