@@ -62,6 +62,9 @@ This is a guide if you want to use the site locally on your device, not recommen
    ```sh
    git clone https://github.com/AhnafPro/ExpenditureAI.git
    ```
-2. 
+2. Go to the folder and open this file (or extract the zip and then open the folder)
+   ```sh
+   index.html
+   ```
 
 
