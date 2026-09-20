@@ -57,7 +57,7 @@ The tech stack and other tools used are is pretty straight foreward...
 <br>
 
 ## Getting started
-This is a guide if you want to use the site locally on your device, not recommended, though, but if you do not have a constant network connection, you might need this.
+This is a guide if you want to use the site locally on your device, not recommended, though but if you do not have a constant network connection, you might need this
 ### Installation
 The site will work offline, however, some things may break but the core functions will still work.
 1. Clone the repo (or download the zip)
