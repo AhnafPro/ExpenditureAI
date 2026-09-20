@@ -18,7 +18,9 @@
     &middot;
     <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#getting-started">Getting started</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Usage</a>
+    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#usage">Usage</a>
+    &middot;
+    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#license">License</a>
     
   </p>
 </div>
@@ -78,3 +80,4 @@ Follow the instructions below to use the site correctly and get your output.
 5. View your smart cuts and then the cost reduction chart under **OPTIMIZATION IMPACT**
 
 ## License
+Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
