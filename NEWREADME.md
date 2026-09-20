@@ -29,3 +29,14 @@
   <img style="border-radius: 10px;" width="1919" height="897" alt="App Banner" src="https://github.com/user-attachments/assets/a6733eb9-6ea9-444b-84f8-bdd202abbd66" />
 </p>
 
+There is a lot to do in life when you are a student abroad. You are all by yourself and sometimes lose track of your spending and end up overspending, or you are not familiar with your surroundings and do not know how to save money. And that's exactly where expenditureAI comes in to help...
+<br>
+<br>
+Here's how:
+* The site shows **multiple services/options that are available** in your region so that better alternatives can be suggested.
+* You do not have to search for the alternatives, Just choose the category of your expense and **get suggested specific alternatives** with the help of our custom algorithm.
+* Want to know the margin of your savings? There is a **graph showing how much you have saved**.
+* If you are unfamiliar with a currency, we have a **currency converter** to solve that issue!
+
+Don't be shy, just go to the site and start testing it out! There are no accounts, logins, or passwords.
+
