@@ -12,9 +12,9 @@
     <a href="https://stardance.hackclub.com/projects/57085"><strong>View project page »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">About the project</a>
+    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#about-the-project">About the project</a>
      &middot;
-    <a href="https://expenditureai.rf.gd/">Built with</a>
+    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#built-with">Built with</a>
     &middot;
     <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Getting started</a>
     &middot;
@@ -39,10 +39,29 @@ Here's how:
 * If you are unfamiliar with a currency, we have a **currency converter** to solve that issue!
 
 Don't be shy, just go to the site and start testing it out! There are no accounts, logins, or passwords.
+<p align="center">
+  <img style="border-radius: 10px;" width="701" height="386" alt="Flowchart Preview" src="https://github.com/user-attachments/assets/8e6b73e9-1043-4803-a289-30eecb928a47" />
+  <br>
+  <sub>some more pics (algorithm flowchart)</sub>
+</p>
 
 ## Built With
-The tech stack is pretty straight foreward...
+The tech stack and other tools used are is pretty straight foreward...
 
 * ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 * ![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+* ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+* ![Drawio](https://img.shields.io/badge/drawio-%23F08705.svg?style=for-the-badge&logo=diagrams.net&logoColor=white)
+<br>
+
+## Getting started
+This is a guide if you want to use the site locally on your device, not recommended, though, but if you do not have a constant network connection, you might need this.
+### Installation
+1. Clone the repo (or download the zip)
+   ```sh
+   git clone https://github.com/AhnafPro/ExpenditureAI.git
+   ```
+2. 
+
+
