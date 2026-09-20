@@ -24,11 +24,13 @@
   </p>
 </div>
 
-## About The Project
 
 <p align="center">
   <img style="border-radius: 10px;" width="1919" height="897" alt="App Banner" src="https://github.com/user-attachments/assets/a6733eb9-6ea9-444b-84f8-bdd202abbd66" />
 </p>
+
+## About The Project
+
 
 There is a lot to do in life when you are a student abroad. You are all by yourself and sometimes lose track of your spending and end up overspending, or you are not familiar with your surroundings and do not know how to save money. And that's exactly where expenditureAI comes in to help...
 <br>
