@@ -16,9 +16,9 @@
      &middot;
     <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#built-with">Built with</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Getting started</a>
+    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/NEWREADME.md#getting-started">Getting started</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">User guide</a>
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Usage</a>
     
   </p>
 </div>
@@ -58,6 +58,7 @@ The tech stack and other tools used are is pretty straight foreward...
 ## Getting started
 This is a guide if you want to use the site locally on your device, not recommended, though, but if you do not have a constant network connection, you might need this.
 ### Installation
+The site will work offline, however, some things may break but the core functions will still work.
 1. Clone the repo (or download the zip)
    ```sh
    git clone https://github.com/AhnafPro/ExpenditureAI.git
@@ -66,5 +67,14 @@ This is a guide if you want to use the site locally on your device, not recommen
    ```sh
    index.html
    ```
+3. View and use the site in your browser.
 
+## Usage
+Follow the instructions below to use the site correctly and get your output.
+1. Choose your display currency under the **MONTH FORECAST** box
+2. Under the **ACTIVE EXPENSES**, click "+" to choose and add your expenses by choosing the category and service.
+3. Enter your cost, and if you are not familiar with the "$" currency, use the **QUICK USD CONVERTER** under **MONTH FORECAST**. (Not recommended to change the cost of any service that is pre-set)
+4. Click **Analyze Now** under the **SMART CUTS** box.
+5. View your smart cuts and then the cost reduction chart under **OPTIMIZATION IMPACT**
 
+## License
