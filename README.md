@@ -11,15 +11,15 @@
     <a href="https://stardance.hackclub.com/projects/57085"><strong>View project page »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#about-the-project">About the project</a>
+    <a href="#about-the-project">About the project</a>
      &middot;
-    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#built-with">Built with</a>
+    <a href="#built-with">Built with</a>
     &middot;
-    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#getting-started">Getting started</a>
+    <a href="#getting-started">Getting started</a>
     &middot;
-    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#usage">Usage</a>
+    <a href="#usage">Usage</a>
     &middot;
-    <a href="https://github.com/AhnafPro/ExpenditureAI/edit/main/README.md#license">License</a>
+    <a href="#license">License</a>
     
   </p>
 </div>
