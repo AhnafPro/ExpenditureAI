@@ -40,7 +40,7 @@ Here's how:
 * Want to know the margin of your savings? There is a **graph showing how much you have saved**.
 * If you are unfamiliar with a currency, we have a **currency converter** to solve that issue!
 
-Don't be shy, just go to the site and start testing it out! There are no accounts, logins, or passwords.
+Don't be lazy, just go and start testing it out! There are no accounts, logins, or passwords.
 <p align="center">
   <img style="border-radius: 10px;" width="701" height="386" alt="Flowchart Preview" src="https://github.com/user-attachments/assets/8e6b73e9-1043-4803-a289-30eecb928a47" />
   <br>
