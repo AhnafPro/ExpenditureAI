@@ -44,7 +44,7 @@ Here's how:
 Don't be lazy, just go and start testing it out! There are no accounts, logins, or passwords.
 =======
 Don't be shy, just go to the site and start testing it out! There are no accounts, logins, or passwords.
->>>>>>> e5ed76f (Final changes)
+
 <p align="center">
   <img style="border-radius: 10px;" width="701" height="386" alt="Flowchart Preview" src="https://github.com/user-attachments/assets/8e6b73e9-1043-4803-a289-30eecb928a47" />
   <br>
@@ -84,8 +84,7 @@ Follow the instructions below to use the site correctly and get your output.
 5. View your smart cuts and then the cost reduction chart under **OPTIMIZATION IMPACT**
 
 ## License
-<<<<<<< HEAD
 Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
-=======
+
 Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
 >>>>>>> e5ed76f (Final changes)
