@@ -1,4 +1,4 @@
-const monthNames = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
+             const monthNames = ["JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER", "OCTOBER", "NOVEMBER", "DECEMBER"];
 document.getElementById('dynamicnmonth').innerText = monthNames[new Date().getMonth()];
 
 const musicServices = [
@@ -77,28 +77,7 @@ const categoryData = {
     food: foodServices
 };
 
-let chart;
-const ctx = document.getElementById('impactChart').getContext('2d');
-chart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: ['Current Spend', 'Optimized Target'],
-        datasets: [{
-            data: [0, 0],
-            backgroundColor: ['rgba(239, 68, 68, 0.8)', 'rgba(127, 255, 98, 0.8)'],
-            borderRadius: 8
-        }]
-    },
-    options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false } },
-        scales: {
-            y: { ticks: { color: '#ffffff' }, grid: { color: 'rgba(255,255,255,0.1)' } },
-            x: { ticks: { color: '#ffffff' }, grid: { display: false } }
-        }
-    }
-});
+
 
 function createExpenseCard() {
     const container = document.getElementById('expenseContainer');
@@ -217,7 +196,7 @@ function analyzeAI() {
     
     outputDiv.innerHTML = `
         <div class="ai-card loading-card">
-            <span class="pulse-dot"></span> Analyzing expenditure patterns...
+            <span class="pulse-dot"></span> Finding alternatives...
         </div>
     `;
 
@@ -407,3 +386,13 @@ function convertCurrency() {
 
     calculateManualUSD();
 }
+
+const textarea = document.getElementById('notes');
+
+if (localStorage.getItem("notes")) {
+    textarea.value = localStorage.getItem("notes");
+}
+
+textarea.addEventListener("input", function() {
+    localStorage.setItem("notes", textarea.value);
+});
