@@ -1,0 +1,111 @@
+
+*{
+    scroll-behavior: smooth;
+}
+*::-webkit-scrollbar-track {
+    background: #1a1a1a;
+    width: 3px;
+}
+*::-webkit-scrollbar {
+    border-radius: 10px;
+    width: 6px;
+}
+*::-webkit-scrollbar-thumb {
+    background: #7FFF62;
+    border-radius: 3px;
+    width: 3px;
+}
+*, html {
+    cursor: url('customcursor.svg') 8 8, auto;
+}
+
+body {
+    background-image: url(home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    font-family: 'TheSeasons', serif;
+    cursor: url('customcursor.svg') 16 16, auto;
+}
+.topbar {
+    height: 25px;
+    width: 97%;
+    background-color: #3e6165e2;
+    border-radius: 5px;
+    margin: 10px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border: 0.1px solid #2f5b60e2;
+}
+
+.topbaricon {
+    height: 25px;
+    width: auto;
+    
+}
+.topbar:hover {
+    transform: scale(1.007);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.leftdiv {
+    width: 50%;
+    height: 80vh;
+    margin-bottom: -20px;
+    margin-left: 35px;
+    line-height: 1;
+    z-index: 2;
+}
+.rightdiv {
+    width: 50%;
+    height: 80vh;
+    
+}
+@font-face {
+  font-family: 'TheSeasons';
+  src: url('TheSeasons.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+span::before {
+            content: "explore the world.";
+            animation: animate infinite 4s;
+            padding-left: 10px;
+        }
+
+        @keyframes animate {
+
+            0% {
+                content: "chase your goals.";
+            }
+
+            40% {
+                content: "build your future.";
+            }
+
+            65% {
+                content: "enjoy student life.";
+            }
+            80% {
+                content: "learn new things.";
+            }
+        }
+
+.buttonhover:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    cursor: url('customcursor.svg') 16 16, auto;
+}
+.skew:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 0px rgba(0, 0, 0, 0.15);
+    cursor: url('customcursor.svg') 16 16, auto;
+}
+.skew {
+    box-shadow: 0 10px 0px rgba(0, 0, 0, 0.211);
+    cursor: url('customcursor.svg') 16 16, auto;
+    
+}
