@@ -40,9 +40,6 @@ Here's how:
 * Want to know the margin of your savings? There is a **graph showing how much you have saved**.
 * If you are unfamiliar with a currency, we have a **currency converter** to solve that issue!
 
-<<<<<<< HEAD
-Don't be lazy, just go and start testing it out! There are no accounts, logins, or passwords.
-=======
 Don't be shy, just go to the site and start testing it out! There are no accounts, logins, or passwords.
 
 <p align="center">
@@ -86,5 +83,3 @@ Follow the instructions below to use the site correctly and get your output.
 ## License
 Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
 
-Distributed under the GPL-3.0 license. See LICENSE.txt for more information.
->>>>>>> e5ed76f (Final changes)
